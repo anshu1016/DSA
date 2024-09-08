@@ -31,7 +31,8 @@ int moveZeroToLast_BFT(vector<int> &arr,int n){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<",";
     }
-
+//TC = O(n)+O(x) +O(n-x) = O(2n);
+//SC = O(1);
 }
 
 int moveZeroToLast_OS(vector<int> &arr,int n){
@@ -58,7 +59,8 @@ int moveZeroToLast_OS(vector<int> &arr,int n){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<",";
     }
-
+//TC = O(x) +O(n-x) = o(n);
+//SC = O(1);
 }
 
 int main(){
