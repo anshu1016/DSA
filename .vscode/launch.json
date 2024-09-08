@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/arunshukla/OneDrive - Nagarro/Desktop/DSA/sorting",
+      "program": "c:/Users/arunshukla/OneDrive - Nagarro/Desktop/DSA/sorting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
