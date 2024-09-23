@@ -91,3 +91,7 @@ int main() {
 
     return 0;
 }
+
+
+// Time Complexity (TC): 𝑂(𝑛1∗𝑛2)
+// Space Complexity (SC): 𝑂(𝑛1+𝑛2)
