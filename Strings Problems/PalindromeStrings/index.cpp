@@ -25,7 +25,8 @@ int main() {
     // std::cout << "Enter a string: ";
     // std::getline(std::cin, input);
     std::string input = "A man, a plan, a canal, Panama";
-    if (isPalindrome(input)) {
+    std::string input2 = "aeiou aeiou aeiou aeiouaeiou";
+    if (isPalindrome(input2)) {
         std::cout << "The string is a palindrome." << std::endl;
     } else {
         std::cout << "The string is not a palindrome." << std::endl;
