@@ -32,9 +32,8 @@ string longestPalindrome(string s) {
 }
 
 int main() {
-    string s;
-    cout << "Enter a string: ";
-    cin >> s;
+    // Default input
+    string s = "babad";  // You can change this default input to test different cases
 
     cout << "Longest palindromic substring: " << longestPalindrome(s) << endl;
     return 0;
