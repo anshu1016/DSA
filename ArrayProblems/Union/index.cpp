@@ -26,7 +26,7 @@ int unionOfBoth_BFT(vector<int> arr1,vector<int> arr2){
 
 int unionOfBoth_OS(vector<int> &arr1,vector<int> &arr2){
     //we are compairing the first value of first array with the first value of second array
-    // if it lower or equal than we can push it to unionArr and vice vesa if arr2 has lower 
+    // if it lower or equal than we can push it to unionArr and vice versa if arr2 has lower 
     //value then we can push it to after compairing the last value is not same the we are pushing.
     // We have to push defintly when the size of unioArr is zero.
     //and if arr1 is exhausted first then we can push the arr2 values in unionArr and vice versa for arr2 

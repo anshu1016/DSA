@@ -23,7 +23,7 @@ int binarySearch(const vector<int>& nums,int low,int high, int target) {
 
 int main() {
     vector<int> nums = {-1, 0, 3, 5, 9, 12};
-    int target = -1;
+    int target = 0;
     int low = 0;
     int high = nums.size()-1;
     int result = binarySearch(nums, low,high,target);
